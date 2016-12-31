@@ -47,7 +47,7 @@ router.route("/imagenes/:id")
         Imagen.findOneAndRemove({_id: req.params.id},function(err, data){
             if(!err){
 				fs.unlink("public/imagenes/"+data._id+"."+data.extension, function(err){
-					if (!err) console.log("error al borrar el fichero: " + err);
+					if (err) console.log("error al borrar el fichero: " + err);
 					console.log("fichero borrado");
 				});
 				//console.log("borrar : " + data);
