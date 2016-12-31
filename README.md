@@ -4,6 +4,6 @@ inicialmente parto del proyecto que se realiza en el curso gratis de node.js de 
 
 http://codigofacilito.com/cursos/nodejs
 
-el código del curso funciona correctamente, además he añadido pequeñas funcionalidades como la de borrado de los ficheros en directorio.
+el código del curso funciona correctamente, además he añadido pequeñas funcionalidades como la de borrado de los ficheros en directorio. Hay que incorporar las dependencias con npm.
 
 voy a ir añadiendo otras funcionalidades y ejemplos poco a poco.
